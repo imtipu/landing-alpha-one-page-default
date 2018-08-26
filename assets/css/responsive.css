@@ -1,0 +1,223 @@
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .version-1::after,
+    .version-2::after,
+    .version-3::after,
+    .version-4::after,
+    .version-5::after,
+    .version-6::after {
+        display: none;
+    }
+    .navbar-brand {
+        padding: 4px 10px;
+    }
+    .hero-btn .theme-default-btn {
+        padding: 8px 16px;
+    }
+    .navbar-toggler.navbar-toggler-right:focus {
+        outline: none;
+    }
+    .navbar-toggler.navbar-toggler-right i {
+        color: #fff;
+    }
+    .home-content {
+        margin-top: 80px;
+    }
+    .home-content h2 {
+        font-size: 32px;
+    }
+    .h-100 {
+        height: auto !important;
+    }
+
+    .home-feature-img {
+        text-align: center !important;
+        margin: 30px 0;
+    }
+    .home-content p {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    #mainNav .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    .theme-default-btn {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    #features .row.mt-5 {
+        margin-top: 30px !important;
+    }
+    .single-feature {
+        padding: 15px 0;
+        margin-bottom: 30px;
+    }
+    .col-6.col-lg-3:nth-last-child(-n+2) .single-feature {
+        margin-bottom: 0;
+    }
+    .about-right {
+        margin-top: 30px;
+    }
+    .section-padding {
+        padding: 70px 0;
+    }
+    .video-popup-contetn h2 {
+        font-size: 30px;
+    }
+    .video-popup-contetn a {
+        font-size: 60px;
+    }
+    .single-counter-box {
+        margin-bottom: 50px;
+    }
+    .col-6.col-lg-3:nth-child(3) .single-counter-box,
+    .col-6.col-lg-3:nth-child(4) .single-counter-box {
+        margin-bottom: 0;
+    }
+    .single-pricing-box {
+        margin-bottom: 50px;
+    }
+    #pricing .section-title {
+        margin-bottom: 30px;
+    }
+    .team-member-info {
+        width: 90.5%;
+    }
+    .col-lg-3 .single-team-member {
+        margin-bottom: 50px;
+    }
+    .col-lg-3:last-child .single-team-member {
+        margin-bottom: 0;
+    }
+    .col-12.col-lg-4:last-child .single-pricing-box {
+        margin-bottom: 0;
+    }
+    #download .section-title {
+        margin-bottom: 20px;
+    }
+    .download-main-area .theme-default-btn {
+        margin: 10px 15px;
+    }
+    .newsletter-content input {
+        width: 300px;
+        max-width: 300px;
+    }
+    .newsletter-content a {
+        margin-top: -23px;
+        left: 58%;
+    }
+    .newsletter-content button {
+        top: 56%;
+        left: 56%;
+
+    }
+    .footer-left {
+        text-align: center;
+    }
+    .footer-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .home-content h2 {
+        font-size: 40px;
+    }
+    .home-content p {
+        margin: 30px 0;
+    }
+    .theme-default-btn {
+        padding: 10px 25px;
+    }
+    .newsletter-content input {
+        width: 410px;
+        max-width: 410px;
+    }
+    .newsletter-content a {
+        margin-top: -25px;
+        left: 63%;
+    }
+    .footer-left {
+        text-align: center;
+    }
+    #mainNav .navbar-nav .nav-link {
+        display: inline-block;
+    }
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler.navbar-toggler-right i {
+        color: #fff;
+    }
+    .home-feature-img img {
+        display: none;
+    }
+    .about-right {
+        margin-top: 30px;
+    }
+    .about-left {
+        text-align: center;
+    }
+    .single-pricing-box {
+        margin-bottom: 50px;
+    }
+    .single-counter-box {
+        margin-bottom: 50px;
+    }
+    .newsletter-content a {
+        left: 59%;
+    }
+    .footer-left {
+        text-align: center;
+    }
+    .footer-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+    #mainNav .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    .team-member-info {
+        width: 92%;
+    }
+    .single-team-member {
+        margin-bottom: 50px;
+    }
+    .newsletter-content button {
+        left: 59%;
+    }
+    #home .col-lg-4.my-auto {
+        display: none;
+        visibility: hidden;
+    }
+    #features .row.mt-5 {
+        margin-top: 0 !important;
+    }
+    #features .single-feature {
+        margin-bottom: 30px !important;
+    }
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .team-member-info {
+        width: 88%;
+    }
+    .newsletter-content a {
+        left: 58%;
+    }
+
+}
+
